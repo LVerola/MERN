@@ -6,7 +6,7 @@ const db = require('./db')
 const productRouter = require('./routes/product-router')
 
 const app = express()
-const apiPort = 3000
+const apiPort = 3333
 
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(cors())

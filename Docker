@@ -1,0 +1,12 @@
+docker pull mongo
+
+docker run --name mern -p 27017:27017 -d mongo
+
+
+
+
+
+
+
+DB: store
+Collection: products
